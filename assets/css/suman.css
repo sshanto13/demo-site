@@ -1,0 +1,97 @@
+/*
+Custom CSS added by suman
+*/
+.form-control {
+  border: none;
+  border-bottom: 1px solid green;
+  border-radius: 0px;
+}
+.bg-gradient-primary {
+  background-image: linear-gradient(
+195deg, #EC407A 0%, #EC407A 100%);
+}
+.bg-gradient-success{
+  background-image: linear-gradient(
+    195deg, #65ad5c 0%, #65ad5c 100%);
+}
+.bg-gradient-chart3 {
+  background-image: linear-gradient( 
+    195deg, #59c5e0 0%, #59c5e0 100%);
+  }
+.highcharts-figure,
+.highcharts-data-table table {
+
+}
+
+#containerBar, #containerLine, #container {
+  /*height: 300px; */
+}
+.highcharts-credits, .highcharts-legend-item{
+  display: none!important;
+}
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+.pointer-cursor{
+ cursor: pointer;
+}
+.showIcons{
+  width: 84px!important;
+  text-align: center!important;
+}
+.showIcons .sidenav-header {
+  justify-content: center;
+}
+.showIcons .pointer-cursor{
+  padding: 15px 10px;
+  width: 80px;
+}
+.dNone{
+ display: none!important;
+}
+.decrease-margin {
+  margin-left: 5.7rem!important;
+}
+.highcharts-container{
+  height: 255px!important;
+}
+.sidebargradientBG{
+  background-image: url(../img/leftbg.png);
+  background-attachment: initial;
+  background-repeat: no-repeat;
+  background-color: #35762d;
+  background-position: center;
+  background-size: cover;
+}
